@@ -111,7 +111,8 @@ class ExoPlayerProfile(
 						Codec.Container.OGV,
 						Codec.Container.MP4,
 						Codec.Container.WEBM,
-						Codec.Container.TS
+						Codec.Container.TS,
+						"hls"
 					).joinToString(",")
 
 					videoCodec = arrayOf(
