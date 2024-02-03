@@ -31,7 +31,7 @@ abstract class JellyfinStreamResolver(
 				deviceProfile = profile,
 				enableDirectPlay = true,
 				enableDirectStream = true,
-				enableTranscoding = true,
+				enableTranscoding = false,
 				allowVideoStreamCopy = true,
 				allowAudioStreamCopy = true,
 				autoOpenLiveStream = true,
